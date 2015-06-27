@@ -1,0 +1,56 @@
+{
+    "nav": {
+        "concept": "CONCEPT",
+        "facilities": "FACILITIES",
+        "residences": "RESIDENCES",
+        "plans": "PLANS",
+        "location": "LOCATION",
+        "register": "REGISTER",
+        "contact": "CONTACT",
+        "aboutmalaysia": "ABOUT MALAYSIA",
+        "aboutmy": "About Malaysia",
+        "calculator": "Calculator"
+    },
+
+    "footer": {
+        "terms": "TERMS & CONDITIONS / DISCLAMER",
+        "privacy": "PRIVACY POLICY",
+        "copyright": "THE RESIDENCES. COPYRIGHT 2015. ALL RIGHTS RESERVED"
+    },
+
+    "ui": {
+        "clicktoenlarge": "Click to enlarge"
+    },
+
+    "contact": {
+        "companyname": "",
+        "formerlyknownas": "Formerly known as",
+        "propertygallery": "Property Gallery",
+        "telephone": "T",
+        "mobile": "M",
+        "email": "Email",
+        "gpscoord": "GPS coordinate",
+        "operatinghours": "Operating hours",
+        "operatinghours10-7": "10am - 7pm (Monday - Sunday)"
+    },
+
+    "calculator": {
+        "loancalculator": "LOAN CALCULATOR",
+        "purchaseprice": "Purchase Price:",
+        "downpayment": "Downpayment:",
+        "loanamount": "Loan Amount:",
+        "loanrate": "Loan Rate (%):",
+        "tenureyear": "Tenure(years):",
+        "payablepermonth": "Payable per month:",
+        "totalpayment": "Total Payment:",
+        "done": "Done",
+        "disclamer": "* This is an estimate provided for illustrative purposes only. Its accuracy is based on the information provided and shall not be construed as a quote under any circumstances whatsoever."
+    },
+
+
+    "aboutmalaysia": {
+        "href-2ndhomeplan": "http://www.mm2h.gov.my/index.php/en/"
+    }
+
+
+}

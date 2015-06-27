@@ -1,0 +1,610 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Register | The Residences - Troipicana</title>
+		<meta name="description" content="tropicana,theresidences,the residecnes,register,estate">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico?v=2" />
+		<link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="js/bower_components/fancybox/source/jquery.fancybox.css">
+        <link rel="stylesheet" href="js/bower_components/bootstrapvalidator/dist/css/bootstrapValidator.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script>
+			var isDev = 
+			    document.location.hostname.indexOf("localhost")>=0 || 
+			    document.location.hostname.indexOf("127.0.0.1")>=0 || 
+			    document.location.pathname.indexOf("staging")>=0 ;
+		</script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+			if(!isDev) {
+			  
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'XXXXXXX', 'auto');
+			ga('send', 'pageview');
+			
+			}
+		</script>
+	</head>
+	<body class='body'>
+		<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<!-- Add your site or application content here -->
+		<div id='register'>
+			<!-- Static navbar -->
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="home.html"><img src='images/navbar_logo.jpg'></a>
+					</div>
+					<div class='navbar-logo'>
+						<a class="navbar-logo" href="home.html"><img width='150' height='auto' src='images/navbar_logo.jpg'></a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="concept.html">CONCEPT</a></li>
+							<li><a href="facilities.html">FACILITIES</a></li>
+							<li><a href="residences.html">RESIDENCES</a></li>
+							<li><a href="plans.html">PLANS</a></li>
+							<li><a href="location.html">LOCATION</a></li>
+							<li class="active"><a href="#">REGISTER</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+						</ul>
+					</div>
+					<!--/.nav-collapse -->
+				</div>
+				<!--/.container-fluid -->
+			</nav>
+			<div class='register-container content-container'>
+				<div class='container'>
+					<div class='register-container content-container'>
+						<div class='container'>
+							<form class="form-horizontal" action='resources/register.php' method='post'>
+                                <div class='row'>
+                                    <div class='form-column col-xs-12'>
+                                        <fieldset>
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-md-4 control-label" for="contact-title">TITLE</label>
+                                                <div class="col-md-7">
+                                                    <select id="contact-title" name="contact-title" class="form-control">
+                                                        <option selected="selected" value="">PLEASE SELECT ONE</option>
+                                                        <option value="Cik">Cik</option>
+                                                        <option value="Datin">Datin</option>
+                                                        <option value="Datin Seri">Datin Seri</option>
+                                                        <option value="Dato'">Dato'</option>
+                                                        <option value="Dato' Dr">Dato' Dr</option>
+                                                        <option value="Datuk">Datuk</option>
+                                                        <option value="Dr">Dr</option>
+                                                        <option value="En">En</option>
+                                                        <!--<option value="General (R) Tan Sri">General (R) Tan Sri</option>-->
+                                                        <option value="Ir">Ir</option>
+                                                        <option value="Mdm">Mdm</option>
+                                                        <option value="Mr">Mr</option>
+                                                        <option value="Mrs">Mrs</option>
+                                                        <option value="Ms">Ms</option>
+                                                        <option value="Puan">Puan</option>
+                                                        <option value="Puan Sri">Puan Sri</option>
+                                                        <option value="Sir">Sir</option>
+                                                        <option value="Tan Sri">Tan Sri</option>
+                                                        <option value="Tengku">Tengku</option>
+                                                        <option value="Tun">Tun</option>
+                                                        <option value="Tunku">Tunku</option>
+                                                        <option value="Yang Mulia">Yang Mulia</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-name">NAME</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-name" name="contact-name" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-mailingaddress">MAILING ADDRESS</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-mailingaddress" name="contact-mailingaddress" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-country">COUNTRY</label>  
+                                                <div class="col-md-7">
+                                                    <select id="contact-country" name="contact-country" class="form-control">
+                                                        <option value="">PLEASE SELECT ONE</option>
+                                                        <option value="Afganistan">Afghanistan</option>
+                                                        <option value="Albania">Albania</option>
+                                                        <option value="Algeria">Algeria</option>
+                                                        <option value="American Samoa">American Samoa</option>
+                                                        <option value="Andorra">Andorra</option>
+                                                        <option value="Angola">Angola</option>
+                                                        <option value="Anguilla">Anguilla</option>
+                                                        <option value="Antigua &amp; Barbuda">Antigua &amp; Barbuda</option>
+                                                        <option value="Argentina">Argentina</option>
+                                                        <option value="Armenia">Armenia</option>
+                                                        <option value="Aruba">Aruba</option>
+                                                        <option value="Australia">Australia</option>
+                                                        <option value="Austria">Austria</option>
+                                                        <option value="Azerbaijan">Azerbaijan</option>
+                                                        <option value="Bahamas">Bahamas</option>
+                                                        <option value="Bahrain">Bahrain</option>
+                                                        <option value="Bangladesh">Bangladesh</option>
+                                                        <option value="Barbados">Barbados</option>
+                                                        <option value="Belarus">Belarus</option>
+                                                        <option value="Belgium">Belgium</option>
+                                                        <option value="Belize">Belize</option>
+                                                        <option value="Benin">Benin</option>
+                                                        <option value="Bermuda">Bermuda</option>
+                                                        <option value="Bhutan">Bhutan</option>
+                                                        <option value="Bolivia">Bolivia</option>
+                                                        <option value="Bonaire">Bonaire</option>
+                                                        <option value="Bosnia &amp; Herzegovina">Bosnia &amp; Herzegovina</option>
+                                                        <option value="Botswana">Botswana</option>
+                                                        <option value="Brazil">Brazil</option>
+                                                        <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+                                                        <option value="Brunei">Brunei</option>
+                                                        <option value="Bulgaria">Bulgaria</option>
+                                                        <option value="Burkina Faso">Burkina Faso</option>
+                                                        <option value="Burundi">Burundi</option>
+                                                        <option value="Cambodia">Cambodia</option>
+                                                        <option value="Cameroon">Cameroon</option>
+                                                        <option value="Canada">Canada</option>
+                                                        <option value="Canary Islands">Canary Islands</option>
+                                                        <option value="Cape Verde">Cape Verde</option>
+                                                        <option value="Cayman Islands">Cayman Islands</option>
+                                                        <option value="Central African Republic">Central African Republic</option>
+                                                        <option value="Chad">Chad</option>
+                                                        <option value="Channel Islands">Channel Islands</option>
+                                                        <option value="Chile">Chile</option>
+                                                        <option value="China">China</option>
+                                                        <option value="Christmas Island">Christmas Island</option>
+                                                        <option value="Cocos Island">Cocos Island</option>
+                                                        <option value="Colombia">Colombia</option>
+                                                        <option value="Comoros">Comoros</option>
+                                                        <option value="Congo">Congo</option>
+                                                        <option value="Cook Islands">Cook Islands</option>
+                                                        <option value="Costa Rica">Costa Rica</option>
+                                                        <option value="Cote DIvoire">Cote D'Ivoire</option>
+                                                        <option value="Croatia">Croatia</option>
+                                                        <option value="Cuba">Cuba</option>
+                                                        <option value="Curaco">Curacao</option>
+                                                        <option value="Cyprus">Cyprus</option>
+                                                        <option value="Czech Republic">Czech Republic</option>
+                                                        <option value="Denmark">Denmark</option>
+                                                        <option value="Djibouti">Djibouti</option>
+                                                        <option value="Dominica">Dominica</option>
+                                                        <option value="Dominican Republic">Dominican Republic</option>
+                                                        <option value="East Timor">East Timor</option>
+                                                        <option value="Ecuador">Ecuador</option>
+                                                        <option value="Egypt">Egypt</option>
+                                                        <option value="El Salvador">El Salvador</option>
+                                                        <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                                        <option value="Eritrea">Eritrea</option>
+                                                        <option value="Estonia">Estonia</option>
+                                                        <option value="Ethiopia">Ethiopia</option>
+                                                        <option value="Falkland Islands">Falkland Islands</option>
+                                                        <option value="Faroe Islands">Faroe Islands</option>
+                                                        <option value="Fiji">Fiji</option>
+                                                        <option value="Finland">Finland</option>
+                                                        <option value="France">France</option>
+                                                        <option value="French Guiana">French Guiana</option>
+                                                        <option value="French Polynesia">French Polynesia</option>
+                                                        <option value="French Southern Ter">French Southern Ter</option>
+                                                        <option value="Gabon">Gabon</option>
+                                                        <option value="Gambia">Gambia</option>
+                                                        <option value="Georgia">Georgia</option>
+                                                        <option value="Germany">Germany</option>
+                                                        <option value="Ghana">Ghana</option>
+                                                        <option value="Gibraltar">Gibraltar</option>
+                                                        <option value="Great Britain">Great Britain</option>
+                                                        <option value="Greece">Greece</option>
+                                                        <option value="Greenland">Greenland</option>
+                                                        <option value="Grenada">Grenada</option>
+                                                        <option value="Guadeloupe">Guadeloupe</option>
+                                                        <option value="Guam">Guam</option>
+                                                        <option value="Guatemala">Guatemala</option>
+                                                        <option value="Guinea">Guinea</option>
+                                                        <option value="Guyana">Guyana</option>
+                                                        <option value="Haiti">Haiti</option>
+                                                        <option value="Hawaii">Hawaii</option>
+                                                        <option value="Honduras">Honduras</option>
+                                                        <option value="Hong Kong">Hong Kong</option>
+                                                        <option value="Hungary">Hungary</option>
+                                                        <option value="Iceland">Iceland</option>
+                                                        <option value="India">India</option>
+                                                        <option value="Indonesia">Indonesia</option>
+                                                        <option value="Iran">Iran</option>
+                                                        <option value="Iraq">Iraq</option>
+                                                        <option value="Ireland">Ireland</option>
+                                                        <option value="Isle of Man">Isle of Man</option>
+                                                        <option value="Israel">Israel</option>
+                                                        <option value="Italy">Italy</option>
+                                                        <option value="Jamaica">Jamaica</option>
+                                                        <option value="Japan">Japan</option>
+                                                        <option value="Jordan">Jordan</option>
+                                                        <option value="Kazakhstan">Kazakhstan</option>
+                                                        <option value="Kenya">Kenya</option>
+                                                        <option value="Kiribati">Kiribati</option>
+                                                        <option value="Korea North">Korea North</option>
+                                                        <option value="Korea Sout">Korea South</option>
+                                                        <option value="Kuwait">Kuwait</option>
+                                                        <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                                        <option value="Laos">Laos</option>
+                                                        <option value="Latvia">Latvia</option>
+                                                        <option value="Lebanon">Lebanon</option>
+                                                        <option value="Lesotho">Lesotho</option>
+                                                        <option value="Liberia">Liberia</option>
+                                                        <option value="Libya">Libya</option>
+                                                        <option value="Liechtenstein">Liechtenstein</option>
+                                                        <option value="Lithuania">Lithuania</option>
+                                                        <option value="Luxembourg">Luxembourg</option>
+                                                        <option value="Macau">Macau</option>
+                                                        <option value="Macedonia">Macedonia</option>
+                                                        <option value="Madagascar">Madagascar</option>
+                                                        <option value="Malaysia">Malaysia</option>
+                                                        <option value="Malawi">Malawi</option>
+                                                        <option value="Maldives">Maldives</option>
+                                                        <option value="Mali">Mali</option>
+                                                        <option value="Malta">Malta</option>
+                                                        <option value="Marshall Islands">Marshall Islands</option>
+                                                        <option value="Martinique">Martinique</option>
+                                                        <option value="Mauritania">Mauritania</option>
+                                                        <option value="Mauritius">Mauritius</option>
+                                                        <option value="Mayotte">Mayotte</option>
+                                                        <option value="Mexico">Mexico</option>
+                                                        <option value="Midway Islands">Midway Islands</option>
+                                                        <option value="Moldova">Moldova</option>
+                                                        <option value="Monaco">Monaco</option>
+                                                        <option value="Mongolia">Mongolia</option>
+                                                        <option value="Montserrat">Montserrat</option>
+                                                        <option value="Morocco">Morocco</option>
+                                                        <option value="Mozambique">Mozambique</option>
+                                                        <option value="Myanmar">Myanmar</option>
+                                                        <option value="Nambia">Nambia</option>
+                                                        <option value="Nauru">Nauru</option>
+                                                        <option value="Nepal">Nepal</option>
+                                                        <option value="Netherland Antilles">Netherland Antilles</option>
+                                                        <option value="Netherlands">Netherlands (Holland, Europe)</option>
+                                                        <option value="Nevis">Nevis</option>
+                                                        <option value="New Caledonia">New Caledonia</option>
+                                                        <option value="New Zealand">New Zealand</option>
+                                                        <option value="Nicaragua">Nicaragua</option>
+                                                        <option value="Niger">Niger</option>
+                                                        <option value="Nigeria">Nigeria</option>
+                                                        <option value="Niue">Niue</option>
+                                                        <option value="Norfolk Island">Norfolk Island</option>
+                                                        <option value="Norway">Norway</option>
+                                                        <option value="Oman">Oman</option>
+                                                        <option value="Pakistan">Pakistan</option>
+                                                        <option value="Palau Island">Palau Island</option>
+                                                        <option value="Palestine">Palestine</option>
+                                                        <option value="Panama">Panama</option>
+                                                        <option value="Papua New Guinea">Papua New Guinea</option>
+                                                        <option value="Paraguay">Paraguay</option>
+                                                        <option value="Peru">Peru</option>
+                                                        <option value="Phillipines">Philippines</option>
+                                                        <option value="Pitcairn Island">Pitcairn Island</option>
+                                                        <option value="Poland">Poland</option>
+                                                        <option value="Portugal">Portugal</option>
+                                                        <option value="Puerto Rico">Puerto Rico</option>
+                                                        <option value="Qatar">Qatar</option>
+                                                        <option value="Republic of Montenegro">Republic of Montenegro</option>
+                                                        <option value="Republic of Serbia">Republic of Serbia</option>
+                                                        <option value="Reunion">Reunion</option>
+                                                        <option value="Romania">Romania</option>
+                                                        <option value="Russia">Russia</option>
+                                                        <option value="Rwanda">Rwanda</option>
+                                                        <option value="St Barthelemy">St Barthelemy</option>
+                                                        <option value="St Eustatius">St Eustatius</option>
+                                                        <option value="St Helena">St Helena</option>
+                                                        <option value="St Kitts-Nevis">St Kitts-Nevis</option>
+                                                        <option value="St Lucia">St Lucia</option>
+                                                        <option value="St Maarten">St Maarten</option>
+                                                        <option value="St Pierre &amp; Miquelon">St Pierre &amp; Miquelon</option>
+                                                        <option value="St Vincent &amp; Grenadines">St Vincent &amp; Grenadines</option>
+                                                        <option value="Saipan">Saipan</option>
+                                                        <option value="Samoa">Samoa</option>
+                                                        <option value="Samoa American">Samoa American</option>
+                                                        <option value="San Marino">San Marino</option>
+                                                        <option value="Sao Tome &amp; Principe">Sao Tome &amp; Principe</option>
+                                                        <option value="Saudi Arabia">Saudi Arabia</option>
+                                                        <option value="Senegal">Senegal</option>
+                                                        <option value="Seychelles">Seychelles</option>
+                                                        <option value="Sierra Leone">Sierra Leone</option>
+                                                        <option value="Singapore">Singapore</option>
+                                                        <option value="Slovakia">Slovakia</option>
+                                                        <option value="Slovenia">Slovenia</option>
+                                                        <option value="Solomon Islands">Solomon Islands</option>
+                                                        <option value="Somalia">Somalia</option>
+                                                        <option value="South Africa">South Africa</option>
+                                                        <option value="Spain">Spain</option>
+                                                        <option value="Sri Lanka">Sri Lanka</option>
+                                                        <option value="Sudan">Sudan</option>
+                                                        <option value="Suriname">Suriname</option>
+                                                        <option value="Swaziland">Swaziland</option>
+                                                        <option value="Sweden">Sweden</option>
+                                                        <option value="Switzerland">Switzerland</option>
+                                                        <option value="Syria">Syria</option>
+                                                        <option value="Tahiti">Tahiti</option>
+                                                        <option value="Taiwan">Taiwan</option>
+                                                        <option value="Tajikistan">Tajikistan</option>
+                                                        <option value="Tanzania">Tanzania</option>
+                                                        <option value="Thailand">Thailand</option>
+                                                        <option value="Togo">Togo</option>
+                                                        <option value="Tokelau">Tokelau</option>
+                                                        <option value="Tonga">Tonga</option>
+                                                        <option value="Trinidad &amp; Tobago">Trinidad &amp; Tobago</option>
+                                                        <option value="Tunisia">Tunisia</option>
+                                                        <option value="Turkey">Turkey</option>
+                                                        <option value="Turkmenistan">Turkmenistan</option>
+                                                        <option value="Turks &amp; Caicos Is">Turks &amp; Caicos Is</option>
+                                                        <option value="Tuvalu">Tuvalu</option>
+                                                        <option value="Uganda">Uganda</option>
+                                                        <option value="Ukraine">Ukraine</option>
+                                                        <option value="United Arab Erimates">United Arab Emirates</option>
+                                                        <option value="United Kingdom">United Kingdom</option>
+                                                        <option value="United States of America">United States of America</option>
+                                                        <option value="Uraguay">Uruguay</option>
+                                                        <option value="Uzbekistan">Uzbekistan</option>
+                                                        <option value="Vanuatu">Vanuatu</option>
+                                                        <option value="Vatican City State">Vatican City State</option>
+                                                        <option value="Venezuela">Venezuela</option>
+                                                        <option value="Vietnam">Vietnam</option>
+                                                        <option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+                                                        <option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+                                                        <option value="Wake Island">Wake Island</option>
+                                                        <option value="Wallis &amp; Futana Is">Wallis &amp; Futana Is</option>
+                                                        <option value="Yemen">Yemen</option>
+                                                        <option value="Zaire">Zaire</option>
+                                                        <option value="Zambia">Zambia</option>
+                                                        <option value="Zimbabwe">Zimbabwe</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-state">STATE</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-state" name="contact-state" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-area">AREA</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-area" name="contact-area" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-postcode">POSTCODE</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-postcode" name="contact-postcode" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-md-4 control-label" for="contact-email">EMAIL</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-email" name="contact-email" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-md-4 control-label" for="contact-mobileno">MOBILE NO</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-mobileno" name="contact-mobileno" type="text" placeholder="" class="form-control">
+                                                    <small>+60121234567</small>
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-gender">GENDER</label>  
+                                                <div class="col-md-7">
+                                                    <select id="contact-gender" name="contact-gender" class="form-control">
+                                                        <option value="">PLEASE SELECT ONE</option>
+                                                        <option value="Male">Male</option>
+                                                        <option value="Female">Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-occupation">OCCUPATION</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-occupation" name="contact-occupation" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-4 control-label" for="contact-agegroup">AGE GROUP</label>  
+                                                <div class="col-md-7">
+                                                    <select id="contact-agegroup" name="contact-agegroup" class="form-control">
+                                                        <option value="">PLEASE SELECT ONE</option>
+                                                        <option value="20 - 30">20 - 30</option>
+                                                        <option value="31 - 40">31 - 40</option>
+                                                        <option value="41 - 50">41 - 50</option>
+                                                        <option value="51 and above">51 and above</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Text input-->
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-md-4 control-label" for="contact-personinchargeemail">PERSON IN<br/>CHARGE EMAIL</label>  
+                                                <div class="col-md-7">
+                                                    <input id="contact-personinchargeemail" name="contact-personinchargeemail" type="text" placeholder="" class="form-control">
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div> <!-- <div class='col-xs-12'> -->
+
+                                    <div class='form-column col-xs-12'>
+                                
+                                        <fieldset>
+                                            <!-- Multiple Radios (inline) -->
+                                            <div class="form-group form-group-sm" id='contact-interested-form-group' required>
+                                                <label class="col-md-12 control-label" for="contact-interested">I AM INTERESTED IN</label>
+                                                <div class="col-md-12"> 
+                                                    <label class="radio-inline" for="contact-interested-0">
+                                                    <input type="radio" name="contact-interested" id="contact-interested-0" value="1 Bedroom">
+                                                    1 Bedroom
+                                                    </label> 
+                                                    <label class="radio-inline" for="contact-interested-1">
+                                                    <input type="radio" name="contact-interested" id="contact-interested-1" value="2 Bedrooms">
+                                                    2 Bedrooms
+                                                    </label> 
+                                                    <label class="radio-inline" for="contact-interested-2">
+                                                    <input type="radio" name="contact-interested" id="contact-interested-2" value="3 Bedrooms">
+                                                    3 Bedrooms
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- Select Basic -->
+                                            <div class="form-group form-group-sm"  required>
+                                                <label class="col-md-6 control-label" for="contact-preference">CONTACT PREFERENCE</label>
+                                                <div class="col-md-5">
+                                                    <select id="contact-preference" name="contact-preference" class="form-control  input-sm">
+                                                        <option value="">PLEASE SELECT ONE</option>
+                                                        <option value="Email">Email</option>
+                                                        <option value="SMS">SMS</option> 
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Select Basic -->
+                                            <div class="form-group form-group-sm" required>
+                                                <label class="col-md-6 control-label" for="contact-knowus">HOW DID YOU GET TO KNOW US</label>
+                                                <div class="col-md-5">
+                                                    <select id="contact-knowus" name="contact-knowus" class="form-control input-sm">
+                                                        <option selected="selected" value="">PLEASE SELECT ONE</option>
+                                                        <option value="Newspaper">Newspaper</option>
+                                                        <option value="Website">Website</option>
+                                                        <option value="Word of Mouth">Word of Mouth</option>
+                                                        <option value="Roadshow/Exhibition/Event">Roadshow/Exhibition/Event</option>
+                                                        <option value="Tropicana Loyalty Program">Tropicana Loyalty Program</option>
+                                                        <option value="Bunting/Billboard">Bunting</option>
+                                                        <option value="Direct Mailer">Billboard</option>
+                                                        <option value="Advertising Banner">Online Banner</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Select Basic -->
+                                            <div class="form-group form-group-sm"  id='contact-subscribe-form-group'>
+                                                <label class="col-md-12 control-label" for="contact-subscribe">WOULD YOU LIKE TO RECEIVE FUTURE UPDATES FROM US VIA EMAIL AND SMS (OUR LAUNCH INVIATION, NEWSLETTER, ETC)?</label>
+                                                <div class="col-md-4 padding-top-sm">
+                                                    <select id="contact-subscribe" name="contact-subscribe" class="form-control input-sm">
+                                                        <option value="Yes" selected>Yes</option>
+                                                        <option value="No">No</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Select Basic -->
+                                            <div class="form-group form-group-sm" id='contact-ismember-form-group'>
+                                                <label class="col-md-12 control-label" for="contact-ismember">ARE YOU A TROPICANA PRIVILLEGE CARD MEMBER?</label>
+                                                <div class="col-md-12"> 
+                                                    <label class="radio-inline" for="contact-ismember-0">
+                                                    <input type="radio" name="contact-ismember" id="contact-ismember-0" value="Yes">
+                                                    YES
+                                                    </label> 
+                                                    <label class="radio-inline" for="contact-ismember-1">
+                                                    <input type="radio" name="contact-ismember" id="contact-ismember-1" value="No"  checked="checked">
+                                                    NO
+                                                    </label> 
+                                                </div>
+                                            </div>
+                                            <!-- Select Basic -->
+                                            <div class="form-group form-group-sm"  id='contact-subscribe-form-group' required>
+                                                <label class="col-md-5 control-label" for="contact-investmentrange">INVESTMENT RANGE</label>
+                                                <div class="col-md-5">
+                                                    <select id="contact-investmentrange" name="contact-investmentrange" class="form-control input-sm">
+                                                        <option selected="selected" value="">PLEASE SELECT ONE</option>
+                                                        <option value="RM500,000 to RM1 million">RM500,000 to RM1 million</option>
+                                                        <option value="RM1 million to RM2 million">RM1 million to RM2 million</option>
+                                                        <option value="RM2 million to RM3 million">RM2 million to RM3 million</option>
+                                                        <option value="RM3 million and above">RM3 million and above</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- Textarea -->
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-md-12 control-label" for="contact-remarks">REMARKS</label>
+                                                <div class="col-md-12">                     
+                                                    <textarea class="form-control" id="contact-remarks" name="contact-remarks" class=' input-sm'></textarea>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class='row'>
+                                                <div class='col-xs-12'>
+                                                    <span id='bycompleting'>
+By completing this registration form, I hereby understand, acknowledge and expressly give consent to Tropicana Corporation Berhad, its group of companies and their business partners to collect and process my personal data for their records to enable them to keep me informed of any updates / information with regards to TROPICANA events and any other future events, products, services and marketing purposes so long as the use of such information does not constitute an invasion of my privacy.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Button (Double) -->
+                                            <div class="form-group btn-form-group form-group-sm">
+<!--                                                <label class="col-md-4 control-label" for="contact-submitbtn"></label>-->
+                                                <div class="col-md-8">
+                                                    <input type='submit' id="contact-submitbtn" name="contact-submitbtn" class="btn btn-default btn-sm " value='AGREE &amp; SUBMIT'>
+                                                    <input type='reset' id="contact-resetbtn" name="contact-resetbtn" class="btn btn-default btn-sm" value='RESET'>
+                                                </div>
+                                            </div>
+                                            
+
+                                            
+                                        </fieldset>
+                                        
+                                    </div> <!-- <div class='col-xs-12'> -->
+                                </div> <!-- <div class='row'> -->
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class='container-fluid'>
+					<div class='arrow-container'>
+						<a href='#register'><img src='images/footer_up_arrow.png'></a>
+					</div>
+				</div>
+				<div class='tnc-container'>
+					<a class='disclamer deep-bg-link deepbg fancybox fancybox.iframe' href='assets/disclamer/disclamer.html'>TERMS &amp; CONDITIONS / DISCLAIMER</a>
+					<span class='separator'>|</span>
+					<a class='privacy deep-bg-link deepbg fancybox fancybox.iframe' href='assets/privacy/privacy.html'>PRIVACY POLICY</a>
+					<span class='separator'>|</span>
+					<span class='copyright'>THE RESIDENCES. COPYRIGHT 2015. ALL RIGHTS RESERVED</span>
+				</div>
+			</footer>
+		</div>
+		<script src="js/bower_components/jquery/dist/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="js/bower_components/jquery/dist/jquery.min.js"><\/script>')
+		</script>
+		<script src="js/bower_components/fancybox/source/jquery.fancybox.js"></script>
+<!--		<script src="js/bower_components/jquery-nicescroll/jquery.nicescroll.min.js"></script>-->
+		<script src="js/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="js/bower_components/bootbox/bootbox.js"></script>
+        <script src="js/bower_components/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+		<script src="js/bower_components/sprintf/dist/sprintf.min.js"></script>
+		<!--    <script src="js/bower_components/bouncefix.js/dist/bouncefix.min.js"></script>-->
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+		</script>  
+	</body>
+</html>

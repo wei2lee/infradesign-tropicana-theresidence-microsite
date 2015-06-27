@@ -1,0 +1,2411 @@
+/*========= VISHNU4357 =========*/
+
+#home_page.showit {
+    display: block !important;
+}
+
+.video_container.hideit {
+    display: none !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+    #home_page {
+        display: none;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    #home_page {
+        display: block !important;
+    }
+    .video_container {
+        display: none !important;
+    }
+}
+
+@media only screen (max-width: 960px) {
+    #home_page {
+        display: block !important;
+    }
+    .video_container {
+        display: none !important;
+    }
+}
+
+div.fancybox-wrap.fancybox-mobile.fancybox-type-image.fancybox-opened {
+    position: fixed !important;
+}
+
+.navbar {
+    min-height: 208px;
+}
+
+.navbar .container-fluid,
+.navbar .container {
+    background: #000000 !important;
+}
+
+.navbar .navbar-brand img {
+    width: 90px !important;
+}
+
+.container {
+    width: 88.3% !important;
+}
+
+.facilities-content1a {
+    background-size: 100% !important;
+    background-position: center top !important;
+    padding-top: 50.2% !important;
+}
+
+.video_container {
+    width: 83%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#intro_video {
+    float: left;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.D_box.box {
+    float: left;
+    left: 2.6%;
+    margin: 2em;
+    position: relative;
+    top: 9px;
+    width: 27.5%;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.auto-height {
+    height: auto;
+}
+
+.center_image {
+    margin: 0 auto;
+}
+
+#plans_ li img {
+    display: inline-block;
+}
+
+#plans_ {
+    position: relative;
+    height: 380px;
+}
+
+.arrow_left {
+    float: left;
+    left: 0;
+}
+
+.arrow_right {
+    float: right;
+    right: 0;
+}
+
+.arrow_left,
+.arrow_right {
+    position: absolute;
+    top: 47%;
+}
+
+.home_D {
+    left: 7.5%;
+    position: relative;
+    top: 20px;
+    width: 29.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #777
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+    font-size: 65%
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+    font-size: 75%
+}
+
+h1,
+.h1 {
+    font-size: 36px
+}
+
+h2,
+.h2 {
+    font-size: 30px
+}
+
+h3,
+.h3 {
+    font-size: 24px
+}
+
+h4,
+.h4 {
+    font-size: 18px
+}
+
+h5,
+.h5 {
+    font-size: 14px
+}
+
+h6,
+.h6 {
+    font-size: 12px
+}
+
+p {
+    margin: 0 0 10px
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4
+}
+
+@media (min-width: 768px) {
+    .lead {
+        font-size: 21px
+    }
+}
+
+small,
+.small {
+    font-size: 85%
+}
+
+mark,
+.mark {
+    background-color: #fcf8e3;
+    padding: .2em
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.text-nowrap {
+    white-space: nowrap
+}
+
+.text-lowercase {
+    text-transform: lowercase
+}
+
+.text-uppercase {
+    text-transform: uppercase
+}
+
+.text-capitalize {
+    text-transform: capitalize
+}
+
+.text-muted {
+    color: #777
+}
+
+.text-primary {
+    color: #337ab7
+}
+
+a.text-primary:hover {
+    color: #286090
+}
+
+.text-success {
+    color: #3c763d
+}
+
+a.text-success:hover {
+    color: #2b542c
+}
+
+.text-info {
+    color: #31708f
+}
+
+a.text-info:hover {
+    color: #245269
+}
+
+.text-warning {
+    color: #8a6d3b
+}
+
+a.text-warning:hover {
+    color: #66512c
+}
+
+.text-danger {
+    color: #a94442
+}
+
+a.text-danger:hover {
+    color: #843534
+}
+
+.bg-primary {
+    color: #fff;
+    background-color: #337ab7
+}
+
+a.bg-primary:hover {
+    background-color: #286090
+}
+
+.bg-success {
+    background-color: #dff0d8
+}
+
+a.bg-success:hover {
+    background-color: #c1e2b3
+}
+
+.bg-info {
+    background-color: #d9edf7
+}
+
+a.bg-info:hover {
+    background-color: #afd9ee
+}
+
+.bg-warning {
+    background-color: #fcf8e3
+}
+
+a.bg-warning:hover {
+    background-color: #f7ecb5
+}
+
+.bg-danger {
+    background-color: #f2dede
+}
+
+a.bg-danger:hover {
+    background-color: #e4b9b9
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-bottom: 0
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+dt,
+dd {
+    line-height: 1.42857143
+}
+
+dt {
+    font-weight: bold
+}
+
+dd {
+    margin-left: 0
+}
+
+@media (min-width: 768px) {
+    .dl-horizontal dt {
+        float: left;
+        width: 160px;
+        clear: left;
+        text-align: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+    .dl-horizontal dd {
+        margin-left: 180px
+    }
+}
+
+abbr[title],
+abbr[data-original-title] {
+    cursor: help;
+    border-bottom: 1px dotted #777
+}
+
+.initialism {
+    font-size: 90%;
+    text-transform: uppercase
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee
+}
+
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+    margin-bottom: 0
+}
+
+blockquote footer,
+blockquote small,
+blockquote .small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #777
+}
+
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+    content: '\2014 \00A0'
+}
+
+.blockquote-reverse,
+blockquote.pull-right {
+    padding-right: 15px;
+    padding-left: 0;
+    border-right: 5px solid #eee;
+    border-left: 0;
+    text-align: right
+}
+
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+    content: ''
+}
+
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+    content: '\00A0 \2014'
+}
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143
+}
+
+@font-face {
+    font-family: 'Salome';
+    src: url('fonts/Salome/Salome.eot?#iefix') format('embedded-opentype'), url('fonts/Salome/Salome.otf') format('opentype'), url('fonts/Salome/Salome.woff') format('woff'), url('fonts/Salome/Salome.ttf') format('truetype'), url('fonts/Salome/Salome.svg#Salome') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-UltLtCn';
+    src: url('fonts/HelveticaNeueLTStd-UltLtCn/HelveticaNeueLTStd-UltLtCn.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeueLTStd-UltLtCn/HelveticaNeueLTStd-UltLtCn.otf') format('opentype'), url('fonts/HelveticaNeueLTStd-UltLtCn/HelveticaNeueLTStd-UltLtCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-UltLtCn/HelveticaNeueLTStd-UltLtCn.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-UltLtCn/HelveticaNeueLTStd-UltLtCn.svg#HelveticaNeueLTStd-UltLtCn') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-UltLt';
+    src: url('fonts/HelveticaNeueLTStd-UltLt/HelveticaNeueLTStd-UltLt.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeueLTStd-UltLt/HelveticaNeueLTStd-UltLt.otf') format('opentype'), url('fonts/HelveticaNeueLTStd-UltLt/HelveticaNeueLTStd-UltLt.woff') format('woff'), url('fonts/HelveticaNeueLTStd-UltLt/HelveticaNeueLTStd-UltLt.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-UltLt/HelveticaNeueLTStd-UltLt.svg#HelveticaNeueLTStd-UltLt') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Md';
+    src: url('fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.otf') format('opentype'), url('fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'FuturaBT-Medium';
+    src: url('fonts/FuturaBT-Medium/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/FuturaBT-Medium/FuturaBT-Medium.otf') format('opentype'), url('fonts/FuturaBT-Medium/FuturaBT-Medium.woff') format('woff'), url('fonts/FuturaBT-Medium/FuturaBT-Medium.ttf') format('truetype'), url('fonts/FuturaBT-Medium/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'FuturaBT-Light';
+    src: url('fonts/FuturaBT-Light/FuturaBT-Light.eot?#iefix') format('embedded-opentype'), url('fonts/FuturaBT-Light/FuturaBT-Light.woff') format('woff'), url('fonts/FuturaBT-Light/FuturaBT-Light.ttf') format('truetype'), url('fonts/FuturaBT-Light/FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'FuturaBT-Light', Helvetica;
+    position: relative
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background-color: #000;
+    color: #000
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.content-container {
+    background-color: #fff
+}
+
+a {
+    color: #000
+}
+
+a:focus,
+a:hover,
+a.active {
+    color: #eb008b
+}
+
+a.deep-bg-link {
+    color: #fff
+}
+
+a.deep-bg-link:focus,
+a.deep-bg-link:hover,
+a.deep-bg-link.active {
+    color: #eb008b
+}
+
+strong {
+    font-family: 'FuturaBT-Medium', Helvetica
+}
+
+.padding-top-sm {
+    padding-top: 5px
+}
+
+.navbar {
+    z-index: 10;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    border: none
+}
+
+@media screen and (min-width: 768px) {
+    nav.navbar {
+        height: 166px
+    }
+}
+
+.navbar .navbar-brand {
+    display: inline
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .navbar-brand {
+        display: none
+    }
+}
+
+.navbar .navbar-brand img {
+    width: 70px;
+    height: auto
+}
+
+.navbar .navbar-logo {
+    padding-top: 20px;
+    text-align: center;
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .navbar-logo {
+        display: block
+    }
+}
+
+.navbar .navbar-logo a {
+    display: inline
+}
+
+.navbar #navbar {
+    text-align: right;
+    top: 66px;
+    right: 30px;
+    position: absolute;
+    width: 120px;
+    background-color: #eb008b;
+    border: none;
+    float: right
+}
+
+@media screen and (min-width: 768px) {
+    .navbar #navbar {
+        text-align: center;
+        position: static;
+        top: 0;
+        background-color: #000;
+        width: 100%
+    }
+}
+
+.navbar #navbar ul {
+    display: inline-block;
+    font-size: .9em
+}
+
+.navbar .navbar-nav {
+    float: right
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .navbar-nav {
+        float: none
+    }
+}
+
+.navbar-default .navbar-nav>li {
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    border-left: none
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-default .navbar-nav>li {
+        border-bottom: none
+    }
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    background-color: #eb008b
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-default .navbar-nav>li>a {
+        background-color: #000
+    }
+}
+
+.navbar-default .navbar-nav>li.active>a {
+    color: #000;
+    background-color: #eb008b
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-default .navbar-nav>li.active>a {
+        color: #eb008b;
+        background-color: #000
+    }
+}
+
+.navbar-default .navbar-nav>li.active>a:hover,
+.navbar-default .navbar-nav>li.active>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #7f7f7f;
+    background-color: #eb008b
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-default .navbar-nav>li.active>a:hover,
+    .navbar-default .navbar-nav>li.active>a:focus,
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:focus {
+        background-color: #000
+    }
+}
+
+#plans {
+    text-align: center
+}
+
+#plans ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+#plans li {
+    display: inline-block;
+}
+
+#plans a {
+    display: block;
+    width: 100px
+}
+
+#plans_ ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0 auto
+}
+
+#plans_ li {
+    display: block
+}
+
+footer .container-fluid {
+    margin: 0;
+    padding: 0
+}
+
+footer .arrow-container {
+    background-color: #eb008b;
+    padding: 4px 0;
+    text-align: center
+}
+
+footer .arrow-container a {
+    display: block
+}
+
+footer .tnc-container {
+    padding: 12px 15px 6px 15px;
+    color: #fff;
+    font-size: .7em;
+    text-align: center
+}
+
+footer .tnc-container a.privacy+.separator {
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    footer .tnc-container a.privacy+.separator {
+        display: inline
+    }
+}
+
+footer .tnc-container .copyright {
+    display: block
+}
+
+@media screen and (min-width: 768px) {
+    footer .tnc-container .copyright {
+        display: inline
+    }
+}
+
+form {
+    margin: 0 auto
+}
+
+form .form-group[required]>label::after {
+    content: ' *'
+}
+
+form .form-group>label {
+    text-align: left !important
+}
+
+form .form-group>label+div textarea,
+form .form-group>label+div select,
+form .form-group>label+div input[type=text] {
+    background-color: #e2e3e4;
+    border: none;
+    border-radius: 0
+}
+
+form .form-group>label+div input[type=text]+.form-control-feedback {
+    right: 12px;
+    top: -2px
+}
+
+form .form-group>label+div select+.form-control-feedback {
+    right: 20px !important;
+    top: -2px
+}
+
+form .form-group .has-feedback>label+div input[type=text]+.form-control-feedback {
+    right: 12px;
+    top: -2px
+}
+
+form .form-group .has-feedback>label+div select+.form-control-feedback {
+    right: 20px !important;
+    top: -2px
+}
+
+form .form-group.btn-form-group {
+    margin-top: 15px
+}
+
+form .form-group.btn-form-group .btn {
+    min-width: 120px;
+    background-color: #e2e3e4;
+    border: none;
+    border-radius: 0;
+    margin-left: 5px
+}
+
+form .form-group textarea {
+    margin-top: 5px;
+    resize: vertical;
+    height: 159px !important
+}
+
+.hide-scrollbar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent
+}
+
+.facilities-image1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../images/facilities/_TR_RoofTop_View_01.jpg)
+}
+
+.facilities-inner1 {
+    display: block;
+    height: 0;
+    padding-top: 49.8%
+}
+
+.concept-content1a {
+    padding-top: 49.58%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/-1440-F%20street%2003a.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .concept-content1a .concept-content1a {
+        background-image: url("../images/concept/-320-F%20street%2003a.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .concept-content1a .concept-content1a {
+        background-image: url("../images/concept/-375-F%20street%2003a.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .concept-content1a .concept-content1a {
+        background-image: url("../images/concept/-480-F%20street%2003a.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .concept-content1a .concept-content1a {
+        background-image: url("../images/concept/-768-F%20street%2003a.jpg")
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .form-column {
+        width: 48% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    a.navbar-brand {
+        display: inline-block !important;
+        float: none !important;
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-header {
+        text-align: center;
+    }
+    a.navbar-brand {
+        display: inline-block;
+        float: none !important;
+        margin-left: 60px;
+    }
+    .container {
+        width: 100% !important;
+    }
+    .two_col {
+        float: left;
+        width: 100% !important;
+    }
+    .two_col_full {
+        float: left;
+        width: 100%;
+        clear: both;
+    }
+    .two_col_full img {
+        width: 86%;
+    }
+    .box.D_box {
+        width: 44%;
+    }
+    .concept-content5a {
+        background-position: left top !important;
+        background-size: 200% auto !important;
+        padding-top: 100% !important;
+    }
+    #plans_ {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .form-column {
+        width: 100% !important;
+        clear: both;
+    }
+    .arrow_left,
+    .arrow_right {
+        float: left;
+        position: static;
+        width: 100%;
+    }
+    .arrow_left {
+        margin-bottom: 36px;
+    }
+    .arrow_right {
+        margin-top: 36px;
+    }
+    .navbar {
+        min-height: 102px !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .concept-content1a .concept-content1a {
+        background-image: url("../images/concept/-1024-F%20street%204%20YY.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .concept-content1a .concept-content1a {
+        background-image: url("../images/concept/-1280-F%20street%2003a.jpg")
+    }
+}
+
+.line {
+    padding-top: .39%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/line.png) no-repeat center center;
+    background-size: cover
+}
+
+.img-center {
+    margin: 0 auto
+}
+
+.concept-content2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.concept-content3a {
+    padding-top: 49.13%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/-1440-TR_Facade_View_02.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .concept-content3a .concept-content3a {
+        background-image: url("../images/concept/-320-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .concept-content3a .concept-content3a {
+        background-image: url("../images/concept/-375-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .concept-content3a .concept-content3a {
+        background-image: url("../images/concept/-480-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .concept-content3a .concept-content3a {
+        background-image: url("../images/concept/-768-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .concept-content3a .concept-content3a {
+        background-image: url("../images/concept/-1024-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .concept-content3a .concept-content3a {
+        background-image: url("../images/concept/-1280-TR_Facade_View_02.jpg")
+    }
+}
+
+.concept-content4 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.concept-content5a {
+    padding-top: 52.5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/-1440-Runway.jpg) no-repeat center center;
+    background-size: 100%
+}
+
+@media only screen and (max-width: 320px) {
+    .concept-content5a .concept-content5a {
+        background-image: url("../images/concept/-320-Runway.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .concept-content5a .concept-content5a {
+        background-image: url("../images/concept/-375-Runway.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .concept-content5a .concept-content5a {
+        background-image: url("../images/concept/-480-Runway.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .concept-content5a .concept-content5a {
+        background-image: url("../images/concept/-768-Runway.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .concept-content5a .concept-content5a {
+        background-image: url("../images/concept/-1024-Runway.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .concept-content5a .concept-content5a {
+        background-image: url("../images/concept/-1280-Runway.jpg")
+    }
+}
+
+.box {
+    float: left;
+    margin: 2em
+}
+
+.home-content1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/_TR_Facade_View_02.jpg) no-repeat center center;
+    background-size: cover;
+    height: 577px
+}
+
+.home-content1a {
+    padding-top: 42.81%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/home/-1440-TR_Facade_View_02.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .home-content1a .home-content1a {
+        background-image: url("../images/home/-320-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .home-content1a .home-content1a {
+        background-image: url("../images/home/-375-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .home-content1a .home-content1a {
+        background-image: url("../images/home/-480-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .home-content1a .home-content1a {
+        background-image: url("../images/home/-768-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .home-content1a .home-content1a {
+        background-image: url("../images/home/-1024-TR_Facade_View_02.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .home-content1a .home-content1a {
+        background-image: url("../images/home/-1280-TR_Facade_View_02.jpg")
+    }
+}
+
+.home-content2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.facilities-content1a {
+    padding-top: 75%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/facilities/-1440-TR_RoofTop_View_01.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .facilities-content1a .facilities-content1a {
+        background-image: url("../images/facilities/-320-TR_RoofTop_View_01.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .facilities-content1a .facilities-content1a {
+        background-image: url("../images/facilities/-375-TR_RoofTop_View_01.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .facilities-content1a .facilities-content1a {
+        background-image: url("../images/facilities/-480-TR_RoofTop_View_01.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .facilities-content1a .facilities-content1a {
+        background-image: url("../images/facilities/-768-TR_RoofTop_View_01.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .facilities-content1a .facilities-content1a {
+        background-image: url("../images/facilities/-1024-TR_RoofTop_View_01.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .facilities-content1a .facilities-content1a {
+        background-image: url("../images/facilities/-1280-TR_RoofTop_View_01.jpg")
+    }
+}
+
+.facilities-content2 {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.facilities-content3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/facilities/_forest%20Lounge.jpg) no-repeat center center;
+    background-size: cover;
+    height: 993px
+}
+
+.facilities-content3a {
+    padding-top: 52.5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/facilities/-1440-forest%20Lounge.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .facilities-content3a .facilities-content3a {
+        background-image: url("../images/facilities/-320-forest%20Lounge.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .facilities-content3a .facilities-content3a {
+        background-image: url("../images/facilities/-375-forest%20Lounge.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .facilities-content3a .facilities-content3a {
+        background-image: url("../images/facilities/-480-forest%20Lounge.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .facilities-content3a .facilities-content3a {
+        background-image: url("../images/facilities/-768-forest%20Lounge.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .facilities-content3a .facilities-content3a {
+        background-image: url("../images/facilities/-1024-forest%20Lounge.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .facilities-content3a .facilities-content3a {
+        background-image: url("../images/facilities/-1280-forest%20Lounge.jpg")
+    }
+}
+
+.jumbotron.vertical-center {
+    margin-bottom: 0
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+p#cf7_controls {
+    text-align: center
+}
+
+#cf7_controls span {
+    padding-right: 2em;
+    cursor: pointer
+}
+
+#cf7 {
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto 10px
+}
+
+#cf7 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0)
+}
+
+#cf7 img.opaque {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=1)
+}
+
+.facilities-content4 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.facilities-content5a {
+    padding-top: 48.89%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/facilities/-1440-TR_Aqua_Gym_04.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .facilities-content5a .facilities-content5a {
+        background-image: url("../images/facilities/-320-TR_Aqua_Gym_04.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .facilities-content5a .facilities-content5a {
+        background-image: url("../images/facilities/-375-TR_Aqua_Gym_04.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .facilities-content5a .facilities-content5a {
+        background-image: url("../images/facilities/-480-TR_Aqua_Gym_04.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .facilities-content5a .facilities-content5a {
+        background-image: url("../images/facilities/-768-TR_Aqua_Gym_04.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .facilities-content5a .facilities-content5a {
+        background-image: url("../images/facilities/-1024-TR_Aqua_Gym_04.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .facilities-content5a .facilities-content5a {
+        background-image: url("../images/facilities/-1280-TR_Aqua_Gym_04.jpg")
+    }
+}
+
+.facilities-content6 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.facilities-content7 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/facilities/white.png) no-repeat center center;
+    background-size: cover
+}
+
+.residences-content1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/residences/_Bedroom.jpg) no-repeat center center;
+    background-size: cover;
+    height: 631px
+}
+
+.residences-content1a {
+    padding-top: 49.87%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/residences/-1440-Bedroom.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .residences-content1a .residences-content1a {
+        background-image: url("../images/residences/-320-Bedroom.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .residences-content1a .residences-content1a {
+        background-image: url("../images/residences/-375-Bedroom.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .residences-content1a .residences-content1a {
+        background-image: url("../images/residences/-480-Bedroom.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .residences-content1a .residences-content1a {
+        background-image: url("../images/residences/-768-Bedroom.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .residences-content1a .residences-content1a {
+        background-image: url("../images/residences/-1024-Bedroom.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .residences-content1a .residences-content1a {
+        background-image: url("../images/residences/-1280-Bedroom.jpg")
+    }
+}
+
+.residences-content2 {
+    padding-top: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.residences-content3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/residences/_Toiletries%2001.jpg) no-repeat center center;
+    background-size: cover;
+    height: 611px
+}
+
+.residences-content3a {
+    padding-top: 48.97%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/residences/-1440-Toiletries%2001.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .residences-content3a .residences-content3a {
+        background-image: url("../images/residences/-320-Toiletries%2001.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .residences-content3a .residences-content3a {
+        background-image: url("../images/residences/-375-Toiletries%2001.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .residences-content3a .residences-content3a {
+        background-image: url("../images/residences/-480-Toiletries%2001.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .residences-content3a .residences-content3a {
+        background-image: url("../images/residences/-768-Toiletries%2001.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .residences-content3a .residences-content3a {
+        background-image: url("../images/residences/-1024-Toiletries%2001.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .residences-content3a .residences-content3a {
+        background-image: url("../images/residences/-1280-Toiletries%2001.jpg")
+    }
+}
+
+.plans-content1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/plans/_Kitchen%2010.jpg) no-repeat center center;
+    background-size: cover;
+    height: 565px
+}
+
+.plans-content1a {
+    padding-top: 49.3%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/plans/-1440-Kitchen%2010.jpg) no-repeat center center;
+    background-size: cover
+}
+
+@media only screen and (max-width: 320px) {
+    .plans-content1a .plans-content1a {
+        background-image: url("../images/plans/-320-Kitchen%2010.jpg")
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .plans-content1a .plans-content1a {
+        background-image: url("../images/plans/-375-Kitchen%2010.jpg")
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .plans-content1a .plans-content1a {
+        background-image: url("../images/plans/-480-Kitchen%2010.jpg")
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .plans-content1a .plans-content1a {
+        background-image: url("../images/plans/-768-Kitchen%2010.jpg")
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .plans-content1a .plans-content1a {
+        background-image: url("../images/plans/-1024-Kitchen%2010.jpg")
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .plans-content1a .plans-content1a {
+        background-image: url("../images/plans/-1280-Kitchen%2010.jpg")
+    }
+}
+
+.plans-content2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/concept/black.png) no-repeat center center;
+    background-size: cover
+}
+
+.plans-content3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/facilities/white.png) no-repeat center center;
+    background-size: cover;
+    height: 670px
+}
+
+.location-content1 {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/facilities/white.png) no-repeat center center;
+    background-size: cover
+}
+
+.location-googlemap {
+    font-size: .9em;
+    float: left;
+    width: 100%;
+    height: 655px;
+    padding-left: 0
+}
+
+.location-googlemap #map {
+    height: 650px;
+    width: 100%
+}
+
+#landing-body::-webkit-scrollbar {
+    width: 0
+}
+
+#landing {
+    position: relative;
+    color: #fff;
+    font-family: 'helvetica';
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0
+}
+
+#landing .bg-side {
+    position: absolute;
+    width: 100%;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    display: block;
+    height: 405px;
+    z-index: 1
+}
+
+@media screen and (min-width: 480px) {
+    #landing .bg-side {
+        height: 445px
+    }
+}
+
+@media screen and (min-width: 660px) {
+    #landing .bg-side {
+        height: 535px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #landing .bg-side {
+        height: 635px
+    }
+}
+
+#landing .bg {
+    position: relative;
+    background-repeat: no-repeat;
+    height: 405px;
+    background-size: 200%;
+    background-position: 12% 100%;
+    z-index: 2
+}
+
+@media screen and (min-width: 480px) {
+    #landing .bg {
+        height: 445px;
+        background-size: 150%;
+        background-position: -10% 100%
+    }
+}
+
+@media screen and (min-width: 660px) {
+    #landing .bg {
+        height: 535px;
+        background-size: 130%;
+        background-position: -35% 100%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #landing .bg {
+        height: 635px;
+        background-size: 1024px 635px;
+        background-position: 50% 0
+    }
+}
+
+#landing.theme1 {
+    background-color: #54008f
+}
+
+#landing.theme1 .bg-side {
+    background-image: url(../images/landing_theme1_bg_siderepeat.jpg)
+}
+
+#landing.theme1 .bg {
+    background-image: url(../images/landing_theme1_bg.jpg)
+}
+
+#landing.theme1 .title-subtext {
+    color: #ec008c
+}
+
+#landing.theme2 {
+    background-color: #ea7914
+}
+
+#landing.theme2 .bg-side {
+    background-image: url(../images/landing_theme2_bg_siderepeat.jpg)
+}
+
+#landing.theme2 .bg {
+    background-image: url(../images/landing_theme2_bg.jpg)
+}
+
+#landing.theme2 .title-subtext {
+    color: #ffff1c
+}
+
+#landing.theme3 {
+    background-color: #00b6a0
+}
+
+#landing.theme3 .bg-side {
+    background-image: url(../images/landing_theme3_bg_siderepeat.jpg)
+}
+
+#landing.theme3 .bg {
+    background-image: url(../images/landing_theme3_bg.jpg)
+}
+
+#landing.theme3 .title-subtext {
+    color: #000
+}
+
+#landing.theme4 {
+    background-color: #ee0678
+}
+
+#landing.theme4 .bg-side {
+    background-image: url(../images/landing_theme4_bg_siderepeat.jpg)
+}
+
+#landing.theme4 .bg {
+    background-image: url(../images/landing_theme4_bg.jpg)
+}
+
+#landing.theme4 .title-subtext {
+    color: #000
+}
+
+#landing.theme5 {
+    background-color: #a1ab23
+}
+
+#landing.theme5 .bg-side {
+    background-image: url(../images/landing_theme5_bg_siderepeat.jpg)
+}
+
+#landing.theme5 .bg {
+    background-image: url(../images/landing_theme5_bg.jpg)
+}
+
+#landing.theme5 .title-subtext {
+    color: #000
+}
+
+#landing .feet-container {
+    height: 635px;
+    text-align: center
+}
+
+@media screen and (min-width: 768px) {
+    #landing .feet-container {
+        text-align: right
+    }
+}
+
+#landing .title-container {
+    text-align: center;
+    display: inline-block
+}
+
+#landing .title-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+#landing .feet-container .title-logo {
+    margin-top: 35px;
+    margin-bottom: 0
+}
+
+#landing .title-big {
+    font-family: 'Salome', Helvetica;
+    margin-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 280px
+}
+
+@media screen and (min-width: 768px) {
+    #landing .title-big {
+        margin-top: 65px
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #landing .title-big {
+        width: 340px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #landing .title-big {
+        width: auto
+    }
+}
+
+#landing .title-subtext {
+    font-size: 2.7em;
+    font-family: 'Salome', Helvetica;
+    margin-top: 38px
+}
+
+@media screen and (min-width: 660px) {
+    #landing .title-subtext {
+        font-size: 3em
+    }
+}
+
+#landing .register-container {
+    height: 135px
+}
+
+#landing .content-container {
+    z-index: 3;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden
+}
+
+#landing .landing-registernow {
+    float: left;
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+    padding-top: 20px
+}
+
+@media screen and (min-width: 992px) {
+    #landing .landing-registernow {
+        text-align: left;
+        width: auto;
+        margin-left: 150px;
+        height: 135px;
+        padding-top: 35px
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #landing .landing-registernow {
+        margin-left: 255px
+    }
+}
+
+#landing .timer {
+    float: right;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px
+}
+
+@media screen and (min-width: 992px) {
+    #landing .timer {
+        width: auto;
+        margin-right: 55px;
+        height: 135px;
+        text-align: left;
+        padding-top: 28px
+    }
+}
+
+#landing .timer ul {
+    display: inline-block
+}
+
+#landing .timer ul li {
+    font-size: 10px;
+    float: left;
+    padding-right: 1.4em;
+    text-align: center
+}
+
+@media screen and (min-width: 480px) {
+    #landing .timer ul li {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width: 660px) {
+    #landing .timer ul li {
+        font-size: 14px
+    }
+}
+
+#landing .timer ul li:last-child {
+    padding-right: 0
+}
+
+#landing .timer ul li .number {
+    font-size: 4.5em;
+    line-height: 1em;
+    margin-bottom: -0.1em;
+    font-family: 'HelveticaNeueLTStd-UltLtCn', 'HelveticaNeueLTStd-UltLt', Helvetica
+}
+
+#landing .timer ul li .timer-label {
+    font-family: 'HelveticaNeueLTStd-Md', Helvetica;
+    font-size: .8em
+}
+
+#contact .contact-container {
+    padding: 70px 0
+}
+
+#contact .contact-container .mobiletel {
+    margin-left: 15px
+}
+
+#contact .contact-container .hidden-xs .contact-methods {
+    float: left;
+    width: 310px;
+    margin-right: -310px;
+    font-size: 1em
+}
+
+#contact .contact-container .hidden-xs .contact-googlemap {
+    font-size: .9em;
+    float: left;
+    width: 100%;
+    height: 400px;
+    padding-left: 350px
+}
+
+#contact .contact-container .hidden-xs .contact-googlemap #map {
+    height: 375px;
+    width: 100%
+}
+
+#contact .contact-container .visible-xs-block .contact-methods {
+    width: 100%;
+    font-size: 1em
+}
+
+#contact .contact-container .visible-xs-block .contact-googlemap {
+    font-size: .9em;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15px
+}
+
+#contact .contact-container .visible-xs-block .contact-googlemap #map {
+    height: 375px;
+    width: 100%
+}
+
+#register .register-container {
+    padding: 20px 0
+}
+
+#register .register-container form .form-column {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media screen and (min-width: 992px) {
+    #register .register-container form .form-column {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
+
+@media screen and (min-width: 992px) and (min-width: 992px) {
+    #register .register-container form .form-column {
+        float: left;
+        width: 50%
+    }
+}
+
+#register #bycompleting {
+    font-size: .9em
+}
+
+.navbar1 {
+    z-index: 10;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    border: none
+}
+
+@media screen and (min-width: 768px) {
+    .navbar1 {
+        height: 166px
+    }
+}
+
+.navbar1 #navbar {
+    text-align: left;
+    top: 27px;
+    position: relative;
+    background-color: #000;
+    border: none
+}
+
+@media screen and (min-width: 768px) {
+    .navbar1 #navbar {
+        text-align: center;
+        position: static;
+        top: 0
+    }
+}
+
+.navbar1 #navbar ul {
+    display: inline-block;
+    font-size: .9em
+}
+
+.navbar1 .navbar-nav {
+    float: none
+}
+
+.container {
+    width: 1170px;
+}
+
+#intro_video {
+    width: 100%;
+    float: left;
+}
+/**/
+/* navigation top left and top right*/
+
+#nav-top-left {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+}
+
+#nav-top-left a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-top-left a:hover {
+    color: #555;
+}
+
+#nav-top-left a.active {
+    color: #eb008b;
+}
+
+#nav-top-right {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 11px;
+}
+
+#nav-top-right .aboutmalaysia {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #nav-top-right {
+        top: 8px;
+        right: 11px;
+    }
+    #nav-top-right .aboutmalaysia {
+        display: inline;
+    }
+}
+
+#nav-top-right a {
+    display: inline-block;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#nav-top-right a.aboutmalaysia:hover {
+    color: #555;
+}
+
+#nav-top-right a.aboutmalaysia.active {
+    color: #eb008b;
+}
+
+#nav-top-right .loancalculator {
+    background: url(../images/btn_bg_loan_caculator.png) center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 110px;
+    padding-left: 4px;
+    padding-right: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav-aboutmalaysia-link {
+    display: inline;
+}
+
+@media screen and (min-width: 768px) {
+    #nav-aboutmalaysia-link {
+        display: none;
+    }
+}
+/* end - navigation top left and top right*/
+/*home*/
+
+.btn-360view {
+    display: block;
+    margin-top: 8px;
+}
+
+.btn-360view img {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .btn-360view {
+        margin-top: 15px;
+    }
+    .btn-360view img {
+        width: 70px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .btn-360view img {
+        margin-left: 111px;
+        margin-right: auto;
+    }
+}
+/*end - home */
+/*about malaysia*/
+
+.aboutmalaysia-cityview,
+.aboutmalaysia-streetview,
+.aboutmalaysia-duskcityview,
+.aboutmalaysia-klccnightview,
+.aboutmalaysia-beachview {
+    padding-top: 75%;
+}
+
+@media screen and (min-width: 480px) {
+    .aboutmalaysia-cityview,
+    .aboutmalaysia-streetview,
+    .aboutmalaysia-duskcityview,
+    .aboutmalaysia-klccnightview,
+    .aboutmalaysia-beachview {
+        padding-top: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .aboutmalaysia-cityview,
+    .aboutmalaysia-streetview,
+    .aboutmalaysia-duskcityview,
+    .aboutmalaysia-klccnightview,
+    .aboutmalaysia-beachview {
+        padding-top: 45%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .aboutmalaysia-cityview,
+    .aboutmalaysia-streetview,
+    .aboutmalaysia-duskcityview,
+    .aboutmalaysia-klccnightview,
+    .aboutmalaysia-beachview {
+        padding-top: 540px;
+    }
+}
+
+.aboutmalaysia-malaysiais,
+.aboutmalaysia-malaysiahas,
+.aboutmalaysia-2020,
+.aboutmalaysia-economic,
+.aboutmalaysia-mm2h {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+/**/
+
+.aboutmalaysia-cityview {
+    background: url(../images/aboutmalaysia/cityview.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutmalaysia-malaysiais>.container>.row>div {
+    margin-bottom: 20px;
+}
+
+.aboutmalaysia-malaysiais>.container>.row:last-child>div:first-child {
+    margin-top: 20px;
+}
+
+.aboutmalaysia-cityview .btns {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 300px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+}
+
+#btn-downloaddocuments {
+    float: right;
+    position: relative;
+}
+
+#btn-downloaddocument1 {
+    display: block;
+    width: 100%;
+}
+
+#btn-downloaddocument2 {
+    display: block;
+    width: 100%;
+}
+
+#btn-2ndhomeplan {
+    float: right;
+    margin-left: 20px;
+    position: relative;
+}
+/**/
+
+.aboutmalaysia-streetview {
+    background: url(../images/aboutmalaysia/streetview.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.aboutmalaysia-malaysiahas>.container>.row>div {
+    margin-bottom: 20px;
+}
+
+.aboutmalaysia-malaysiahas>.container>.row:last-child>div:first-child {
+    margin-top: 20px;
+}
+/**/
+
+.aboutmalaysia-duskcityview {
+    background: url(../images/aboutmalaysia/duskcityview.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.aboutmalaysia-2020>.container>.row>div {
+    margin-bottom: 20px;
+}
+
+.aboutmalaysia-2020>.container>.row:last-child>div:first-child {
+    margin-top: 20px;
+}
+/**/
+
+.aboutmalaysia-klccnightview {
+    background: url(../images/aboutmalaysia/klccnightview.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.aboutmalaysia-economic>.container>.row>div {
+    margin-bottom: 20px;
+}
+
+.aboutmalaysia-economic>.container>.row:last-child>div:first-child {
+    margin-top: 20px;
+}
+/**/
+
+.aboutmalaysia-beachview {
+    background: url(../images/aboutmalaysia/beachview.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.aboutmalaysia-mm2h>.container>.row:first-child>div:first-child {
+    margin-top: 20px;
+}
+
+.aboutmalaysia-mm2h>.container>.row>div {
+    margin-bottom: 20px;
+}
+/*end - about malaysia*/
+/*calculator*/
+
+form .form-group>label+div input[type=number] {
+    background-color: #e2e3e4;
+    border: none;
+    border-radius: 0
+}
+
+#calculator-body {
+    background-color: transparent;
+    max-height: 485px;
+}
+
+#calculator {
+    background-color: transparent;
+}
+
+#calculator form {}
+
+#calculator form input[disabled] {
+    color: rgb(60, 60, 60);
+    background-color: #f2f3f4;
+    color: #aaa;
+}
+
+#calculator form .btn {
+    min-width: 120px;
+    float: right;
+}
+/*end - calculator*/

@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Residences - Troipicana</title>
+    <meta name="description" content="tropicana,theresidences,the residecnes,landing,estate">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico?v=2" />
+
+    <link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script>
+    var isDev = 
+        document.location.hostname.indexOf("localhost")>=0 || 
+        document.location.hostname.indexOf("127.0.0.1")>=0 || 
+        document.location.pathname.indexOf("staging")>=0 ;
+    </script>
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      if(!isDev) {
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'XXXXXXX', 'auto');
+          ga('send', 'pageview');
+      }
+    </script>
+    
+    <script>
+        var queryDict = {}
+        location.search.substr(1).split("&").forEach(function(item) {queryDict[item.split("=")[0]] = item.split("=")[1]});
+    </script>
+    <script>
+      
+        var now = new Date().getTime()/1000;
+        var swapthemes = [
+            {date:new Date(2015, 2, 12, 0, 0, 0, 0).getTime()/1000, themeclass:'theme1'},
+            {date:new Date(2015, 2, 14, 0, 0, 0, 0).getTime()/1000, themeclass:'theme2'},
+            {date:new Date(2015, 2, 16, 0, 0, 0, 0).getTime()/1000, themeclass:'theme3'},
+            {date:new Date(2015, 2, 18, 0, 0, 0, 0).getTime()/1000, themeclass:'theme4'},
+            {date:new Date(2015, 2, 20, 0, 0, 0, 0).getTime()/1000, themeclass:'theme5'}
+        ];
+        themeclass = swapthemes[swapthemes.length - 1].themeclass;
+        for(var k in swapthemes){
+            if(now - swapthemes[k].date < 0){
+                if(k == 0){
+                    themeclass = swapthemes[0].themeclass;   
+                    break;
+                }else{
+                    themeclass = swapthemes[k-1].themeclass;   
+                    break;
+                }
+            }
+        }
+        
+        if(queryDict.theme != undefined && swapthemes[queryDict.theme] != undefined){
+            themeclass = swapthemes[queryDict.theme].themeclass;
+        }
+    </script>
+</head>
+
+<body class='body' id='landing-body'>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+<!--    <div id='landing'>-->
+    
+    <div class='hide-scrollbar'></div>
+    <script>document.write("<div id='landing' class='"+themeclass+"'>");</script>
+        <div class='bg-side hidden-xs'></div>
+        <img class='title-logo visible-xs-block' src='images/landing_logo.png'>
+        <div class='bg'>
+            <div class='container feet-container'>
+                <div class='title-container hidden-xs'>
+                    <img class='title-logo' src='images/landing_logo.png'>
+                    <img class='title-big' src='images/landing_klatyourfeet.png'>
+                    <div class='title-subtext'>21 March 2015</div>
+                </div>
+            </div>
+        </div><!-- <div class='bg'>" -->
+        <div class='container content-container'>
+            <div class='title-container visible-xs-block'>
+                <img class='title-big' src='images/landing_klatyourfeet.png'>
+                <div class='title-subtext'>21 March 2015</div>
+            </div>
+            <a class='landing-registernow' href='register.html'><img src='images/landing_registernowbtn.png'></a>
+            <div class='timer'>
+                <ul>
+                <li class='timer-dd'>
+                    <div class='number'></div>
+                    <div class='timer-label'>DAYS</div>
+                </li>
+                <li class='timer-hh'>
+                    <div class='number'></div>
+                    <div class='timer-label'>HOURS</div>
+                </li>
+                <li class='timer-mi'>
+                    <div class='number'></div>
+                    <div class='timer-label'>MINUTES</div>
+                </li>
+                <li class='timer-ss'>
+                    <div class='number'></div>
+                    <div class='timer-label'>SECONDS</div>
+                </li>
+                </ul>
+            </div>
+        </div>
+    
+    </div><!-- <div id='landing'>-->
+    <script src="js/bower_components/jquery/dist/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/bower_components/jquery/dist/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/bower_components/jquery-nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="js/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/bower_components/sprintf/dist/sprintf.min.js"></script>
+<!--    <script src="js/bower_components/bouncefix.js/dist/bouncefix.min.js"></script>-->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    </script>  
+</body>
+
+</html>

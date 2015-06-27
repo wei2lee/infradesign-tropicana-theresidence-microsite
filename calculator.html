@@ -1,0 +1,139 @@
+<!doctype html>
+<html class="no-js" lang="en" ng-app="CalculatorApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Loan Calculatoe | TROPICANA THE RESIDENCES, KLCC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico?v=2" />
+    <link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        var isDev =
+            document.location.hostname.indexOf("localhost") >= 0 ||
+            document.location.hostname.indexOf("127.0.0.1") >= 0 ||
+            document.location.pathname.indexOf("staging") >= 0;
+    </script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        if (!isDev) {
+
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'XXXXXXX', 'auto');
+            ga('send', 'pageview');
+
+        }
+    </script>
+</head>
+
+<body class='body' id='calculator-body' ng-controller="CalculatorCtrlr">
+    <!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+    <!-- Add your site or application content here -->
+    <div id='calculator'>
+        <form class="form-horizontal" action='javascript:void(0)' method='post'>
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <legend data-i18n='calculator.loancalculator'>LOAN CALCULATOR</legend>
+                </div>
+                <div class='col-xs-12'>
+                    <fieldset>
+                        <!-- Text input-->
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-3 control-label" for="purchaseprice" data-i18n='calculator.purchaseprice'>Purchase Price:</label>
+                            <div class="col-sm-9">
+                                <input id="purchaseprice" name="purchaseprice" type="number" placeholder="" class="form-control" ng-model="purchaseprice">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-3 control-label" for="downpayment" data-i18n='calculator.downpayment'>Downpayment:</label>
+                            <div class="col-sm-9">
+                                <input id="downpayment" name="downpayment" type="number" placeholder="" class="form-control" ng-model="downpayment">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-3 control-label" for="loanamount" data-i18n='calculator.loanamount'>Loan Amount:</label>
+                            <div class="col-sm-9">
+                                <input id="loanamount" name="loanamount" type="text" placeholder="" class="form-control" disabled value="{{loanamount() | currency:'MYR ':2 || '-'}}">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-3 control-label" for="loanrate" data-i18n='calculator.loanrate'>Loan Rate (%):</label>
+                            <div class="col-sm-9">
+                                <input id="loanrate" name="loanrate" type="number" placeholder="" class="form-control" ng-model="loanrate">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-3 control-label" for="tenureyear" data-i18n='calculator.tenureyear'>Tenure(years):</label>
+                            <div class="col-sm-9">
+                                <input id="tenureyear" name="tenureyear" type="number" placeholder="" class="form-control" ng-model="tenureyear">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-3 control-label" for="payablepermonth" data-i18n='calculator.payablepermonth'>Payable per month:</label>
+                            <div class="col-sm-9">
+                                <input id="payablepermonth" name="payablepermonth" type="text" placeholder="" class="form-control" disabled value="{{payablepermonth() | currency:'MYR ':2 || '-'}}">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-sm-3 control-label" for="totalpayment" data-i18n='calculator.totalpayment'>Total Payment:</label>
+                            <div class="col-sm-9">
+                                <input id="totalpayment" name="totalpayment" type="text" placeholder="" class="form-control" disabled value="{{totalpayment() | currency:'MYR ':2 || '-'}}">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <div class="col-sm-offset-3 col-sm-9">
+                                <small data-i18n='calculator.disclamer'>* This is an estimate provided for illustrative purposes only. Its accuracy is based on the information provided and shall not be construed as a quote under any circumstances whatsoever.</small>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-offset-3 col-sm-9">
+                                <input type="submit" name="submit" data-i18n-value='calculator.done' value="Done" class="btn btn-default">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <!-- <div class='col-xs-12'> -->
+            </div>
+            <!-- class='row' -->
+
+        </form>
+
+
+    </div>
+    <script src="js/bower_components/jquery/dist/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/bower_components/jquery/dist/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/bower_components/fancybox/source/jquery.fancybox.js"></script>
+    <script src="js/bower_components/jquery-nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="js/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/bower_components/sprintf/dist/sprintf.min.js"></script>
+    <script src="js/bower_components/angular/angular.min.js"></script>
+    <script src="js/bower_components/i18next/i18next.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app-calculator.js"></script>
+    </script>
+</body>
+
+</html>

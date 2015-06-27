@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Salome';
+  src: url('Salome.eot?#iefix') format('embedded-opentype'),  url('Salome.otf')  format('opentype'),
+	     url('Salome.woff') format('woff'), url('Salome.ttf')  format('truetype'), url('Salome.svg#Salome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

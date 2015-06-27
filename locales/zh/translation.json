@@ -1,0 +1,56 @@
+{
+    "nav": {
+        "concept": "概念",
+        "facilities": "设施",
+        "residences": "住宅",
+        "plans": "平面图",
+        "location": "地点",
+        "register": "登记",
+        "contact": "联系方式",
+        "aboutmalaysia": "关于马来西亚",
+        "aboutmy": "关于马来西亚",
+        "calculator": "贷款计算器"
+    },
+
+    "footer": {
+        "terms": "条款和条件 / 免责声明",
+        "privacy": "隐私政策",
+        "copyright": "THE RESIDENCES • 2014年版权 • 保留所有权利"
+    },
+
+    "ui": {
+        "clicktoenlarge": "点击加大"
+    },
+
+    "contact": {
+        "companyname": "丽阳机构",
+        "formerlyknownas": "前身为",
+        "propertygallery": "产业展示厅",
+        "telephone": "电话",
+        "mobile": "手机",
+        "email": "电邮",
+        "gpscoord": "GPS 定位",
+        "operatinghours": "营业时间",
+        "operatinghours10-7": "早上10时至下午7时 (星期一至星期日)"
+    },
+
+    "calculator": {
+        "loancalculator": "贷款计算器",
+        "purchaseprice": "购买价格:",
+        "downpayment": "首期付款:",
+        "loanamount": "贷款额:",
+        "loanrate": "年利率(％):",
+        "tenureyear": "贷款年限:",
+        "payablepermonth": "应付每月:",
+        "totalpayment": "总付款:",
+        "done": "完成",
+        "disclamer": "* 此贷款计算器的数据、计算结果仅供参考。具体以办理业务或交易实际结果为准。"
+    },
+
+
+    "aboutmalaysia": {
+        "href-2ndhomeplan": "http://www.mm2h.gov.my/index.php/en/home/programme/terms-conditions/about-mm2h-mandarin"
+    }
+
+
+}
